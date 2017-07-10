@@ -2,6 +2,7 @@ body {
 	color: #9F8FBD;
 	font-family: 'Roboto Slab';
 	background-image: url("flow-wallpaper.jpg");
+	background-size: 50%;
 }
 
 .outer-layer {
@@ -12,6 +13,7 @@ body {
 	background-color: #149036;
 	color: #472E75;
 	padding: 10px;
+	
 }
 
 
