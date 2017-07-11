@@ -1,5 +1,5 @@
 body {
-	color: #9F8FBD;
+	color: #3F1E7E;
 	font-family: 'Roboto Slab';
 	background-image: url("flow-wallpaper.jpg");
 	background-size: 50%;
@@ -13,7 +13,14 @@ body {
 	background-color: #149036;
 	color: #472E75;
 	padding: 10px;
-	
+	margin: -2px;
+}
+
+.sections {
+	background-color: #9F8FBD;
+	opacity: 0.9;
+	padding: 20px;
+	margin:20px;
 }
 
 

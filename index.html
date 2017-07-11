@@ -43,18 +43,18 @@
     </header>
   <div class="outer-layer">
     <header>
-      <section>
-  	   <div class="intro-text">
+      <section class="about-me sections">
+  	   <div>
         <p><h2>About Me</h2></p>
   		  <p>Software Engineering student in <a href="https://techtonica.org/">Techtonica's</a> current cohort learning full stack JavaScript development.</p>
   	   </div>
       </section>
     </header>
 
-      <section>
+      <section class="my-projects sections">
         <div>
   		    <p>
-  		      <h2>Check out some of my projects:</h2>
+  		      <h2>My Projects</h2>
   			     <ul>
   				    <li></li>
   				    <li></li>
@@ -65,9 +65,25 @@
   	    </div>
       </section>
 
-      <section>
+      <section class="contact-me sections">
         <p><h2>Contact Me</h2></p>
-          <p></p>
+          <form action="#" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" name="contact_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" name="contact_mail">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea name="contact_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send your message</button>
+            </div>
+          </form>
 
 
       </section>
